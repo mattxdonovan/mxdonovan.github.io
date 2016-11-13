@@ -6,26 +6,41 @@ html{
   display: flex;
   justify-content: space-between;
   width:100%;
-  height: auto;
+  height: 80px;
   padding-bottom: 0;
 }
-.jumboSide{
-  height: 14%;
-  width: 14%;
-  margin-top: 2%;
+
+.jumboSideContainer{
+  height: 80px;
+  width: auto;
 }
-.jumboCenter{
-  height: 25%;
+.jumboSide {
+  height: 100%;
+  width: auto;
+}
+.MXDlogo {
+  height: 100%;
+  width: auto;
+}
+.jumboCenterContainer {
+  height: 80px;
   /*height: .75%;*/
-  width: 50%;
+  width: auto;
   margin-top: 2%;
-  -webkit-margin-before: 3em;
+  /*-webkit-margin-before: 3em;*/
+}
+.jumboCenter {
+  height: 100%;
+  width: auto;
 }
 .symbol{
   font-size: 25px;
   font-weight: bold;
   color: white;
   padding: 5px;
+}
+.bodyContainer{
+  padding-top: 50px;
 }
 .name{
   font-size: 23px;
@@ -66,17 +81,17 @@ h2 {
   color: white;
 }
 .container td {
-	  font-weight: normal;
-	  font-size: 1em;
+	font-weight: normal;
+	font-size: 1em;
   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
-	        box-shadow: 0 2px 2px -2px #0E1119;
+  -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
 }
 .container {
-	  text-align: left;
-	  overflow: hidden;
-	  width: 80%;
-	  margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
   display: table;
   padding: 0 0 8em 0;
 }
