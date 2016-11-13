@@ -70,7 +70,20 @@ html {
   font-style: italic;
   font-family: Catamaran, serif;
 }
-
+.downloadButton {
+  color: white;
+  border: white 2px solid;
+  padding: 1em 1.75em;
+  list-style: none;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.downloadButton:hover {
+  color: black;
+  background-color: white;
+  border: white 2px solid;
+  transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
 /*=================SIDEBAR=====================*/
 .navbar, .navbar-default{
   margin-bottom: 0 !important;
