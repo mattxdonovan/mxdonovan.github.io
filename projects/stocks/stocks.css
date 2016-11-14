@@ -232,6 +232,7 @@ input{
   border: 1px solid #D1D1D1;
 }
 select{
+  text-align: center;
   text-align-last: center;
 }
 input:-webkit-autofill,
@@ -241,6 +242,7 @@ select:-webkit-autofill {
 
 }
 textarea {
+  text-align: center;
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -285,6 +287,7 @@ label > .label-body {
 .inputDiv{
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .searchContainer{
     height: auto;
@@ -295,7 +298,8 @@ h1 {
     font-family: inherit;
     font-weight: bold;
     color: white;
-    font-size: 18px;
+    font-size: 50px;
+    /*margin-top: 0;*/
   }
 p {
     font-size: 14px;
@@ -461,5 +465,27 @@ only screen and (max-width: 760px),
   }
   .absPos{
     overflow-x: hidden;
+  }
+  h1 {
+      font-size: 25px;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+  .inputDiv {
+    width: 100%;
+  }
+  select {
+    width: auto;
+  }
+  .typeDiv {
+    height: 38px;
+    width: auto;
+    font-size: 10px;
+  }
+  .tickerDiv {
+    width: auto;
+    font-size: 10px;
   }
 }
