@@ -454,7 +454,7 @@ only screen and (max-width: 760px),
   }
   .container {
     text-align: left;
-    max-width: 100%;
+    max-width: 98%;
     margin: 0;
     display: table;
     overflow: hidden;
@@ -474,18 +474,18 @@ only screen and (max-width: 760px),
     width: 100%;
   }
   .inputDiv {
-    width: 100%;
+    max-width: 100%;
+    justify-content: center;
   }
-  select {
-    width: auto;
-  }
-  .typeDiv {
+  input, .typeDiv {
     height: 38px;
     width: auto;
     font-size: 10px;
   }
-  .tickerDiv {
+  select {
+    height: 38px;
     width: auto;
     font-size: 10px;
+    text-align: center;
   }
 }
