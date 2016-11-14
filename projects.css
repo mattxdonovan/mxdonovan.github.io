@@ -2,7 +2,8 @@ body {
   height: 100%;
   width: 100%;
   font-family: Catamaran, serif;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  margin: 0;
 }
 .logoContainer {
   width: 100%;
@@ -20,23 +21,28 @@ a:-webkit-any-link {
     cursor: auto;
     height: 100%;
     width: auto;
+    padding-top: 8px;
 }
 .headText {
   margin-top: 80px;
 }
 .projectCards {
   margin-top: 10%;
+  /*width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;*/
 }
-
 .projectImg {
-  height: 300px;
-  width: auto;
+  width: 80%;
+  height: auto;
   cursor: grab !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projectImg:hover{
-  height: 320px;
+  width: 85%;
+  height: auto;
   transition: .3s 0s ease-in-out, .3s 0s ease-in-out;
   cursor: grab !important;
 }
@@ -47,5 +53,27 @@ a:-webkit-any-link {
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-
+  .projectCards {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .projectImg {
+    width: 100%;
+    height: auto;
+    cursor: grab !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*.projectCards {
+    float: none;
+    width: 100%;
+  }*/
+  .stockAnalyzer, .gSpace, .FarmShare {
+    display: block;
+    float: none;
+    width: 100%;
+  }
 }
