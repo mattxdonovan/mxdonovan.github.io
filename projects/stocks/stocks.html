@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Analyzer</title>
     <link rel="stylesheet" href="stocks.css">
   </head>
@@ -16,7 +16,11 @@
         <a href="www.mxdonovan.com"><img src="MXDlogo.png" class="MXDlogo"></a>
       </div>
       <div class="jumboCenterContainer">
-        <img src="jumboText.png" class="jumboCenter">
+        <div class="jumboCenter">
+          <h1 class="jumboText">Stock Analyzer</h1>
+          <p class="jumboText">For all of your investing needs</p>
+        </div>
+        <!-- <img src="jumboText.png" class="jumboCenter"> -->
       </div>
       <div class="jumboSideContainer">
         <img src="chartLogo.png" class="jumboSide">
@@ -61,56 +65,54 @@
     </div>
       </form>
 
-    <!-- ================== SNAPSHOT TABLE START ================== -->
-    <table class="container">
-      <thead class= "head">
-        <tr>
-          <td colspan= "2" class="noBorder"><pre><span class="symbol" id="symbol"></span><span class="name" id="name"></span><span class="exchange" id="exchange"></span></pre></td>
-          <td colspan= "2" class="noBorder"><pre><span class="result" id='result'></span><span class="change" id='change'></span></pre>
-            <pre><span class="noBorder" id='time'></span></pre>
-          </td>
-        </tr>
-      </thead>
-      <br><br><br><br>
+    <!-- ================== DESKTOP SNAPSHOT TABLE START ================== -->
+    <div>
+      <table class="container">
+        <thead class= "head">
+          <tr>
+            <td colspan= "2" class="noBorder"><pre><span class="symbol" id="symbol"></span><span class="name" id="name"></span><span class="exchange" id="exchange"></span></pre></td>
+            <td colspan= "2" class="noBorder"><pre><span class="result" id='result'></span><span class="change" id='change'></span></pre>
+              <pre><span class="noBorder" id='time'></span></pre>
+            </td>
+          </tr>
+        </thead>
+        <br><br><br><br>
 
-      <tbody class="tbody">
-        <tr>
-          <td class="dayResults">Previous Close</th>
-          <td id= "previousClose" class="infoApi"></td>
-          <td class="dayResults">Year Range</td>
-          <td id= "yearRange" class="infoApi"></td>
-        </tr>
-        <tr>
-          <td class="dayResults">Open</td>
-          <td id= "open" class="infoApi"></td>
-          <td class="dayResults">Day's Range</th>
-          <td id= "dayRange" class="infoApi"></td>
-        </tr>
-        <tr>
-          <td class="dayResults">Bid</th>
-          <td id= "bid" class="infoApi"></td>
-          <td class="dayResults">Volume</th>
-          <td id= "volume" class="infoApi"></td>
-        </tr>
-        <tr>
-          <td class="dayResults">Ask</th>
-          <td id= "ask" class="infoApi"></td>
-          <td class="dayResults">Avg Daily Volume</th>
-          <td id= "AverageDailyVolume" class="infoApi"></td>
-        </tr>
-        <tr>
-          <td class="dayResults">50 Day Moving Avg</th>
-          <td id= "50dayMovingAverage" class="infoApi"></td>
-          <td class="dayResults">200 Day Moving Avg</th>
-          <td id= "200dayMovingAverage" class="infoApi"></td>
-        </tr>
-      </tbody>
-    </table>
-    <br><br><br>
-    <!-- ================== SNAPSHOT TABLE END ================== -->
-
-
-
+        <tbody class="tbody">
+          <tr>
+            <td class="dayResults">Previous Close</td>
+            <td  id= "previousClose" class="infoApi"></td>
+            <td class="dayResults">Year Range</td>
+            <td id= "yearRange" class="infoApi"></td>
+          </tr>
+          <tr>
+            <td class="dayResults">Open</td>
+            <td id= "open" class="infoApi"></td>
+            <td class="dayResults">Day's Range</td>
+            <td id= "dayRange" class="infoApi"></td>
+          </tr>
+          <tr>
+            <td class="dayResults">Bid</td>
+            <td id= "bid" class="infoApi"></td>
+            <td class="dayResults">Volume</td>
+            <td id= "volume" class="infoApi"></td>
+          </tr>
+          <tr>
+            <td class="dayResults">Ask</td>
+            <td id= "ask" class="infoApi"></td>
+            <td class="dayResults">Avg Daily Volume</td>
+            <td id= "AverageDailyVolume" class="infoApi"></td>
+          </tr>
+          <tr>
+            <td class="dayResults">50 Day Moving Avg</td>
+            <td id= "50dayMovingAverage" class="infoApi"></td>
+            <td class="dayResults">200 Day Moving Avg</td>
+            <td id= "200dayMovingAverage" class="infoApi"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- ================== DESKTOP SNAPSHOT TABLE END ================== -->
 
     <!-- ================== CHART START ================== -->
     <div class="chartContainer">
@@ -130,7 +132,7 @@
       </div>
     </div>
     <!-- ================== NEWS FEED END ================== -->
-    
+
     </div>
   </body>
 
