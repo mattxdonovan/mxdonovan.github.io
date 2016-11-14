@@ -1,8 +1,3 @@
-
-// http://marketdata.websol.barchart.com/getHistory.json?key=b3ec29de1356877ff2be07f40c254204&symbol=IBM&type=daily&startDate=20150728000000
-// ('Access-Control-Allow-Origin: *');
-
-
 //======================== END of Snapshot View ========================
 
 google.charts.load('current', {'packages':['corechart']});
@@ -295,9 +290,3 @@ function drawChart() {
   chart.draw(data, options);
 }
   //======================== END of Stock Chart ========================
-
-
-
-
-
-// http://ichart.finance.yahoo.com/table.csv?g=d&f=2014&e=12&c=2014&b=10&a=7&d=7&s=AAPL **produces xml doc of stock info****

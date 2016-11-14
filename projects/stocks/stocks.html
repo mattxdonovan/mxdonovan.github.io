@@ -5,49 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stock Analyzer</title>
     <link rel="stylesheet" href="stocks.css">
-
-
   </head>
     <!-- <div class="jumbo2">
       <h2 class="headerName2">For all of your investing needs</h1>
     </div> -->
   <body>
 
-  <div class="jumboContainer">
-    <div class="jumboSide">
-      <a href="www.mxdonovan.com"><img src="MXDlogo.png" class="MXDlogo"></a>
+    <div class="jumboContainer">
+      <div class="jumboSide">
+        <a href="www.mxdonovan.com"><img src="MXDlogo.png" class="MXDlogo"></a>
+      </div>
+      <div class="jumboCenterContainer">
+        <img src="jumboText.png" class="jumboCenter">
+      </div>
+      <div class="jumboSideContainer">
+        <img src="chartLogo.png" class="jumboSide">
+      </div>
     </div>
-    <div class="jumboCenterContainer">
-      <img src="jumboText.png" class="jumboCenter">
-    </div>
-    <div class="jumboSideContainer">
-      <img src="chartLogo.png" class="jumboSide">
-    </div>
-  </div>
 
 
-<div class="bodyContainer">
-
-  <!-- <body class="bodyContainer"> -->
-    <div class="searchContainer">
-      <form name="search" autocomplete="on" id="Form" class="form" method="post">
-      <br>
-      <div class="inputDiv">
-        <div class="tickerDiv">
-        <!-- <label for="Ticker">Ticker: </label> -->
-          <input type="text" name="ticker" placeholder="Enter Ticker Symbol" id="ticker" class="ticker">
-        </div>
-        <div class="typeDiv">
-          <select id="type" class="type">
-            <option disabled selected style="color:gray">Select a Time Range Here</option>
-            <option class= "otherOptions">1 Week</option>
-            <option class= "otherOptions">1 Month</option>
-            <option class= "otherOptions">3 Months</option>
-            <option class= "otherOptions">6 Months</option>
-            <option class= "otherOptions">1 Year</option>
-            <option class= "otherOptions">17 Months</option>
-          </select>
-        </div>
+    <div class="bodyContainer">
+      <div class="searchContainer">
+        <form name="search" autocomplete="on" id="Form" class="form" method="post">
+        <br>
+        <div class="inputDiv">
+          <div class="tickerDiv">
+          <!-- <label for="Ticker">Ticker: </label> -->
+            <input type="text" name="ticker" placeholder="Enter Ticker Symbol" id="ticker" class="ticker">
+          </div>
+          <div class="typeDiv">
+            <select id="type" class="type">
+              <option disabled selected style="color:gray">Select a Time Range Here</option>
+              <option class= "otherOptions">1 Week</option>
+              <option class= "otherOptions">1 Month</option>
+              <option class= "otherOptions">3 Months</option>
+              <option class= "otherOptions">6 Months</option>
+              <option class= "otherOptions">1 Year</option>
+              <option class= "otherOptions">17 Months</option>
+            </select>
+          </div>
         <!-- <div class="typeChartDiv">
           <select id="typeChart" class="typeChart">
             <option disabled selected style="color:gray">Select a Chart Type Here</option>
@@ -117,15 +113,11 @@
 
 
     <!-- ================== CHART START ================== -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<div class="chartContainer">
-    <div id="chart_div" class= "chart_div"></div>
-  </div>
+    <div class="chartContainer">
+      <div id="chart_div" class= "chart_div"></div>
+    </div>
 
     <!-- ================== CHART END ================== -->
-
-
-
 
     <!-- ================== NEWS FEED START ================== -->
     <div class="newsfeedHeadContainer" id="newsfeedHeadContainer">
@@ -138,14 +130,13 @@
       </div>
     </div>
     <!-- ================== NEWS FEED END ================== -->
+    
+    </div>
+  </body>
 
-
-
-
-  </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="stocks.js"></script>
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-  </body>
 </html>
