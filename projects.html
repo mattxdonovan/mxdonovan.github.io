@@ -2,35 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="projects.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <link href="projects.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="logoContainer">
-        <a href="www.mxdonovan.com"><img src="web_logo_white.png" alt="mxd" class="logo"/></a>
+
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logoContainer">
+        <a class="logoContainer" href="#"><img src="web_logo_white.png" alt="mxd" class="logo"/></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="navLinks"><a href="projects.html">Projects</a></li>
+          <li class="navLinks"><a href="aboutMe.html">About Me</a></li>
+          <li class="navLinks"><a href="constactMe.html">Contact Me</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <body>
+    <!-- <div class="logoContainer">
+        <a href="www.mxdonovan.com"><img src="web_logo_white.png" alt="mxd" class="logo"/></a>
+    </div> -->
     <div class="headText">
       <h1 class="center">Projects</h1>
     </div>
     <div class="projectCards">
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 borderSpacing">
         <a href="projects/stocks/stocks.html"><img src="StockAnalyzerIpad.png" alt="" class="projectImg" /></a>
         <h3 class="center">Stock Analyzer</h3>
         <p class="center"><strong>Web app for returning info, a chart, and a news feed for a publically traded company</strong></p>
         <p class="center">JavaScript - Yahoo Finance API - Google Charts</p>
       </div>
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 borderSpacing">
         <a href="projects/stocks/gSpace.html"><img src="gSpaceiPad.png" alt="" class="projectImg" /></a>
         <h3 class="center">gSpace</h3>
         <p class="center"><strong>Web application for keeping Galvanize graduates connected and colaborating on projects.</strong></p>
         <p class="center">JavaScript - Express - Passport - Knex - Handlebars</p>
         <p class='red center'>Coming Soon!</p>
       </div>
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 borderSpacing">
         <a href="projects/stocks/FarmShare.html"><img src="FarmShareiPad.png" alt="" class="projectImg" /></a>
         <h3 class="center">FarmShare</h3>
         <p class="center"><strong>Essentially an online farmers market connecting consumers directly with their local farms.</strong></p>
@@ -39,4 +62,6 @@
       </div>
     </div>
   </body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 </html>

@@ -4,16 +4,6 @@ body {
   font-family: Catamaran, serif;
   margin: 0;
 }
-.logoContainer {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  background-color: grey;
-}
-.logo {
-  height: 8%;
-  width: 8%;
-}
 a:-webkit-any-link {
     color: none;
     text-decoration: none;
@@ -27,9 +17,6 @@ a:-webkit-any-link {
 }
 .projectCards {
   margin-top: 10%;
-  /*width: 100%;
-  display: flex;
-  justify-content: space-around;*/
 }
 .projectImg {
   width: 80%;
@@ -52,30 +39,6 @@ a:-webkit-any-link {
   color: red;
   font-weight: bold;
 }
-@media
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-  .projectCards {
-    margin-top: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .projectImg {
-    width: 100%;
-    height: auto;
-    cursor: grab !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /*.projectCards {
-    float: none;
-    width: 100%;
-  }*/
-  .stockAnalyzer, .gSpace, .FarmShare {
-    display: block;
-    float: none;
-    width: 100%;
-  }
+.borderSpacing {
+  margin-bottom: 20px;
 }

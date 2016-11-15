@@ -217,12 +217,12 @@ margin-right: 30px;
     font-size: .75em !important;
   }
   .nav>li>a {
-    padding-left: 70% !important;
+    padding-left: 65% !important;
     transition: .1s 0s ease-in-out, .1s 0s ease-in-out;
     margin-right: 0px;
     font-family: Catamaran, serif !important;
     font-size: 14px !important;
-    letter-spacing: 1.5px;
+    letter-spacing: .2px;
     text-transform: uppercase;
   }
   div.navbar-collapse.collapse.in{
