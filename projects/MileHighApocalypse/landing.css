@@ -7,6 +7,7 @@ html {
   background-repeat: no-repeat;
   background-clip: padding-box;
   height: 100vh;
+  overflow: hidden;
 }
 body {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
