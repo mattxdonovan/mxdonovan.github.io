@@ -1,0 +1,77 @@
+.parallaxContainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
+section.module.parallax {
+  height: 800px;
+  background-position: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 35px;
+  line-height: 500px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  /*text-shadow: 10 10 10px rgba(0, 0, 0, .9);*/
+}
+section.module.parallax-1 {
+  margin-top: 0;
+  background-image: url("motherboard.jpg");
+  height: 500px;
+}
+section.module.parallax-2 {
+  background-image: url("gSpaceiPad.png");
+}
+/*section.module.parallax-3 {
+  background-image: url("vail2015.png");
+}
+section.module.parallax-4 {
+  background-image: url("fam2.png");
+}*/
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 130px;
+  }
+}

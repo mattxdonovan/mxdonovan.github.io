@@ -32,27 +32,22 @@ letter-spacing: 1.5px;
 text-transform: uppercase;
 margin-right: 30px;
 }
-
 .fa-github :hover,
 .fa-github span,
 .fa-github span:before {
   background: #4078c0;
 }
-
 .fa-google-plus :hover,
 .fa-google-plus span,
 .fa-google-plus span:before {
   background: #e64522;
 }
-
 .fa-linkedin :hover,
 .fa-linkedin span,
 .fa-linkedin span:before {
   background: #0094BC;
 }
-
 .logoContainer {
-  /*display: block;*/
   height: 10%;
   width: 10%;
   z-index: 40;
@@ -86,14 +81,9 @@ margin-right: 30px;
 .info {
   font-family: Catamaran, serif;
   font-size: 1.5em !important;
-
   margin-bottom: 3%;
   padding-bottom: 0;
 }
-/*.message {
-  font-style: italic;
-  font-family: Catamaran, serif;
-}*/
 .downloadButton {
   color: white;
   border: white 2px solid;
@@ -229,5 +219,6 @@ margin-right: 30px;
     margin-right: 0px !important;
     padding-top: 0px !important;
     border: white;
+
   }
 }
