@@ -18,7 +18,7 @@ function rollDice() {
   // let uDie3 = Math.floor(Math.random() * 6) + 1
   let zDie1 = Math.floor(Math.random() * 6) + 1
   // let zDie2 = Math.floor(Math.random() * 6) + 1
-  $("#zombieDie").attr("src","images/B"+zDie1+".png");
+  $("#zombieDie").attr("src","images/b"+zDie1+".png");
   // $("#zombieDie").attr("src","images/B"+zDie2+".png");
   $("#userDie").attr("src","images/O"+uDie1+".png");
   // $("#youDie2").attr("src","images/O"+uDie2+".png");
