@@ -79,6 +79,12 @@ section.module.parallax-4 {
   section.module.parallax-1 {
     margin-top: 0;
     background-image: url("meMountain.png");
+    background-size: contain;
+    background-position: center;
+  }
+  section.module.parallax-2 {
+    background-image: url("Creede_CO.jpg");
+    background-size: contain;
     background-position: center;
   }
 }
