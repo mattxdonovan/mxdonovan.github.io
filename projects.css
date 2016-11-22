@@ -42,3 +42,12 @@ a:-webkit-any-link {
 .borderSpacing {
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 769px){
+  .headText {
+    margin-top: 2%;
+  }
+  .textProjects {
+    font-size: 3em;
+  }
+}

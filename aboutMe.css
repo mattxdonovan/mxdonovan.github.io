@@ -49,7 +49,6 @@ section.module.parallax-1 {
   margin-top: 0;
   background-image: url("Hackathon_MapQuest_API_Winners.png");
   background-position: center;
-  /*height: 100%;*/
 }
 section.module.parallax-2 {
   background-image: url("Creede_CO.jpg");
@@ -74,5 +73,12 @@ section.module.parallax-4 {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 130px;
+  }
+}
+@media only screen and (max-width: 769px){
+  section.module.parallax-1 {
+    margin-top: 0;
+    background-image: url("meMountain.png");
+    background-position: center;
   }
 }

@@ -1,4 +1,44 @@
-form.contact p {
+.center {
+  display: flex;
+  justify-content: center !important;
+}
+body {
+  font-family: Catamaran, sans-serif;
+}
+.centerY {
+  /*vertical-align: middle !important;*/
+
+}
+.getInTouch {
+  font-size: 5em;
+  padding: 3%;
+}
+.centerYdiv {
+  padding-top: 15%;
+  padding-right: 5%;
+}
+
+@media only screen and (max-width: 769px){
+  .iconCM {
+  width: 50%;
+  height: 50%;
+  }
+  .iconPhone {
+    width: 30%;
+    height: 30%;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .getInTouch {
+    font-size: 3em;
+  }
+  .centerYdiv {
+    padding-top: 8%;
+    padding-right: 0;
+  }
+}
+/*form.contact p {
 font-size: 15px;
 padding: 0 0 15px 0;
 margin: 0;
@@ -32,4 +72,4 @@ background: #222;
 border: #222;
 padding: 10px 25px 10px 25px;
 cursor: pointer;
-}
+}*/
