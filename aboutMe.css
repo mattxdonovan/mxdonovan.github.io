@@ -47,11 +47,12 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   margin-top: 0;
-  background-image: url("motherboard.jpg");
-  height: 500px;
+  background-image: url("Hackathon_MapQuest_API_Winners.png");
+  background-position: center;
+  /*height: 100%;*/
 }
 section.module.parallax-2 {
-  background-image: url("gSpaceiPad.png");
+  background-image: url("Creede_CO.jpg");
 }
 /*section.module.parallax-3 {
   background-image: url("vail2015.png");
