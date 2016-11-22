@@ -2,20 +2,27 @@
   display: flex;
   justify-content: center !important;
 }
-body {
-  font-family: Catamaran, sans-serif;
-}
-.centerY {
-  /*vertical-align: middle !important;*/
+html {
 
 }
+body {
+  font-family: Catamaran, sans-serif;
+  color: white;
+  background-image: url('maroonBells.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .getInTouch {
   font-size: 5em;
   padding: 3%;
 }
 .centerYdiv {
-  padding-top: 15%;
+  margin-top: 15%;
+  padding-top: 2%;
   padding-right: 5%;
+  background:rgba(255,255,255, 0.1);
 }
 
 @media only screen and (max-width: 769px){
