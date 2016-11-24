@@ -209,15 +209,13 @@ li {
 }
 a#toTopHover{
   font-family: 'FontAwesome';
-  content: '\f106';
+  /*content: '\f106';*/
   font-size: 22px;
-  /*line-height: 35px;*/
+  line-height: 35px;
   padding-top: 0;
   opacity: 1;
   }
 #toTop {
-  font-family: 'FontAwesome';
-  content: '\f106';
   font-size: 22px;
   line-height: 35px;
   padding-top: 0;
@@ -246,6 +244,14 @@ a#toTopHover{
   transition-delay: 0s;
   z-index: 100;
 }
+#toTop:before {
+    line-height: 35px;
+    content: '\f106';
+    -webkit-font-smoothing: antialiased;
+    font-family: 'FontAwesome';
+    font-size: 22px;
+}
+
 #toTop:hover {
   opacity: 1;
 }
