@@ -4,6 +4,11 @@ body {
   color: #ffffff;
   font-size: 14px;
   overflow-x: hidden;
+
+}
+a {
+  color: inherit !important;
+  text-decoration: inherit !important;
 }
 #hr {
   border: 0;
