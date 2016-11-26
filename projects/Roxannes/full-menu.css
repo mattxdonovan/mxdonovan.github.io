@@ -1,12 +1,31 @@
+
 body {
   background-color: #3d6248;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.4em;
   overflow-x: hidden;
 }
-a {
-  color: inherit;
-  text-decoration: inherit;
+#fullwidth-box-div {
+  background-color:#3d6248;
+  background-attachment:scroll;
+  background-position:left top;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  border-color:#3e3e3e;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  padding-bottom:20px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:20px;
+}
+.spc {
+  margin-bottom: 10px !important;
 }
 .white {
   color: #FFFFFF !important;
@@ -27,23 +46,20 @@ a {
   background-color: #225a44;
 }
 .bottomPadding{
-  padding-bottom: 20px;
-}
-.callToOrder {
-  padding-left: 25px;
-  font-size: 12px;
-  line-height: 45px;
-  height: 45px;
-  vertical-align: middle !important;
+  padding: 15px 15px 15px 15px;
 }
 .fullWidthMenu {
-  padding: 5% 10% 0 10%;
-  /*box-sizing: border-box;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .menuBlock {
-  padding: 2% 5% 2% 2%;
+  padding: 10px;
   margin: 0;
   align-self: center;
+}
+.menuBlock > p {
+  clear: both;
 }
 img {
   vertical-align: middle;
@@ -59,21 +75,8 @@ h4 {
   font-size: 38px;
   text-align: center;
 }
-.sides-extras > h2 {
-  padding-bottom: 10px !important;
-}
 .sides-extras {
-  padding-bottom: 20px !important;
-}
-.mobile-nav-holder {
-  background-color: white;
-}
-.chooseFillings > h2 {
-  padding-bottom: 10px !important;
-}
-.kidsMeals > h2 {
-  padding-bottom: 10px !important;
-  margin-top: 20px !important;
+  margin-top: 30px;
 }
 .text-center {
   text-align: center;
@@ -91,24 +94,18 @@ h2 {
   font-size: 38px !important;
   line-height: 27px;
 }
-.sides-extras, {
-  padding-top: 5%;
+.rightSide {
+  padding-top: 90px;
 }
-.Quesadillas{
-  padding-top: 12%;
-}
-.postContent {
-  padding-bottom: 20px;
+.postContent, p {
+  padding-bottom: 20px !important;
+  margin: 0 !important;
 }
 span.menuSpan::before {
   font-family: 'Glyphicons Halflings';
   content: "\e072";
   font-size: 10px !important;
 }
-li {
-  list-style-type: none;
-}
-
 #toTop {
   font-size: 22px;
   line-height: 35px;
@@ -152,10 +149,6 @@ li {
 @media only screen and (max-width: 700px){
   body {
     overflow-x: hidden;
-  }
-  .fullWidthMenu{
-    margin: auto !important;
-    padding: 5 5 5 5 !important;
   }
   .headerTop {
     height: auto !important;
