@@ -3,15 +3,14 @@
   justify-content: center !important;
 }
 html {
-
-}
-body {
-  font-family: Catamaran, sans-serif;
-  color: white;
   background-image: url('maroonBells.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+body {
+  font-family: Catamaran, sans-serif;
+  color: white;
 }
 
 .getInTouch {
@@ -30,10 +29,10 @@ body {
   width: 50%;
   height: 50%;
   }
-  .iconPhone {
+  /*.iconPhone {
     width: 30%;
     height: 30%;
-  }
+  }*/
   h3 {
     font-size: 1.5em;
   }
