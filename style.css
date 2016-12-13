@@ -66,12 +66,12 @@ margin-right: 30px;
 }
 .backDrop {
   background: rgba(0, 0, 0, 0.5);
-  background-size: auto;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1%;
+  padding: 2% 2% 5% 2%;
 }
 .name {
   margin-bottom: 5% !important;
@@ -81,7 +81,7 @@ margin-right: 30px;
 .info {
   font-family: Catamaran, serif;
   font-size: 1.5em !important;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   padding-bottom: 0;
 }
 .downloadButton {
@@ -201,7 +201,7 @@ margin-right: 30px;
     margin-bottom: 20px;
   }
   .downloadButtonContainer{
-    margin: 30px !important;
+    margin: 50px !important;
   }
   .downloadButton {
     font-size: .75em !important;
