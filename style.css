@@ -3,6 +3,7 @@ html {
   width: 100%;
   font-family: Catamaran, serif;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('motherboard.jpg');
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +68,7 @@ margin-right: 30px;
 .backDrop {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  height: 120% !important;
+  /*height: 120% !important;*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
