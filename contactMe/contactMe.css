@@ -4,10 +4,12 @@
 }
 html {
   background-color: black;
+  height: 100%;
 }
 body {
   font-family: Catamaran, sans-serif;
   color: white;
+  height: 100%;
   background-image: url('maroonBells.jpg');
   background-position: center;
   background-repeat: no-repeat;
