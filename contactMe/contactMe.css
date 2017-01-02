@@ -2,6 +2,49 @@
   display: flex;
   justify-content: center !important;
 }
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0) !important;
+  margin-top: 0 !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+.container {
+  width: 100% !important;
+}
+div.navbar-collapse.collapse{
+  width: 90% !important;
+  margin-right: 10px !important;
+  float: right !important;
+  padding-top: 20px;
+}
+.navbar-nav>li>a {
+color: white !important;
+font-family: Catamaran, serif !important;
+font-size: 16px !important;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin-right: 30px;
+}
+.logo {
+  height: 5%;
+  width: auto;
+}
+.containerInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  flex-direction: column;
+  color: white;
+}
+.container {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.logo {
+  height: 85px;
+  width: auto;
+  padding-top: 10px;
+}
 html {
   background-color: black;
   height: 100%;
@@ -32,10 +75,14 @@ body {
   width: 50%;
   height: 50%;
   }
-  /*.iconPhone {
-    width: 30%;
-    height: 30%;
-  }*/
+  .iconPhone {
+    width: 20%;
+    height: 20%;
+  }
+  .getInTouch {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
   h3 {
     font-size: 1.5em;
   }
@@ -43,8 +90,33 @@ body {
     font-size: 3em;
   }
   .centerYdiv {
-    padding-top: 8%;
+    margin-top: 5%;
+    padding-top: 3%;
     padding-right: 0;
+  }
+  .container {
+    width: 100% !important;
+    display: block !important;
+  }
+  .logo {
+    height: 50px;
+    width: auto;
+    padding-top: 5px;
+  }
+  .nav>li>a {
+    padding-left: 65% !important;
+    transition: .1s 0s ease-in-out, .1s 0s ease-in-out;
+    margin-right: 0px;
+    font-family: Catamaran, serif !important;
+    font-size: 14px !important;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+  }
+  div.navbar-collapse.collapse.in{
+    margin-right: 0px !important;
+    padding-top: 0px !important;
+    border: white;
+
   }
 }
 /*form.contact p {
