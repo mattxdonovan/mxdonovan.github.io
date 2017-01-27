@@ -147,7 +147,7 @@ var color;
 				console.log("Start rolling!")
 				let uDie1 = Math.floor(Math.random() * 6) + 1
 			  let uDie2 = Math.floor(Math.random() * 6) + 1
-        $("#zombieDie").attr("src","images/B"+uDie1+".png")
+        $("#zombieDie").attr("src","images/b"+uDie1+".png")
         $("#userDie").attr("src","images/O"+uDie2+".png")
 				messageDiv.html('<h3 class="text-primary"> You got ' + uDie1 + '</h3>' + '<h3 class="text-danger"> Zombie got ' + uDie2 + '</h3>');
 
