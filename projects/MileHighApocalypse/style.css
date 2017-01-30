@@ -16,7 +16,7 @@ header {
     height: 90vh;
     width: 115vh;
     margin-left: 3em;
-    margin-top: 5em;
+    /*margin-top: 5em;*/
 }
 .center {
     display: flex;
@@ -104,10 +104,8 @@ header {
 	box-shadow: 3px 3px 10px black;
 	height: 8em;
 }
-.row{
-	/*margin: 0 auto;*/
-	padding-top: 2em;
-	padding-bottom: 2em;
+.paddingTop2em{
+	padding-top: 1.5em;
 }
 .thumbnail {
   text-align: center;
@@ -132,8 +130,9 @@ header {
 }
 .heroImg {
   /*padding-bottom: 5%;*/
-  padding-top: 3%;
+  /*padding-top: 3%;*/
   /*padding-left: 18%;*/
-  min-height: 200px;
+  min-height: 100px;
+  max-height: 100px !important;
   align-self: center !important;
 }

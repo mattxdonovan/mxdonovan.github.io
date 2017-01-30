@@ -127,7 +127,7 @@ function SelectTerritory() {
 	let controlDiv = $('#control');
 	let messageDiv = $('#message');
 
-	visualDiv.html('<img style="max-height: 200px;" src="' + user.selectedHero.imageURL + '">');
+	visualDiv.html('<img style="max-height: 110px;" src="' + user.selectedHero.imageURL + '">');
 	controlDiv.empty();
 	messageDiv.html("<h3 class='text-primary'>Select an infected territory to attack!</h3>")
 

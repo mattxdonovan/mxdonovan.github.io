@@ -13,6 +13,8 @@ map = L.map('map', {
 //
 // ]);
 map.options.minZoom = 11.5;
+map.options.maxZoom = 14;
+
 //--->
 
 

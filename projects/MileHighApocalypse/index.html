@@ -19,18 +19,14 @@
         <div class="center">
             <img class="center-block" id="brand" alt="Brand" src="images/MileHighApocalypse.png">
         </div>
+
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="controls col-xs-4">
-          <div id='territoriesOwned'>
-            <!-- <button class="btn btn-primary btn-sm" type="button">Hero Territories <span class="badge">$(this).userTerritories</span>
-            </button>
-            <button class="btn btn-danger btn-sm" type="button">Zombie Territories <span class="badge">$(this).zombieTerritories</span>
-            </button> -->
-          </div>
+    <div class="row paddingTop2em">
+      <!-- <div class="controls col-xs-12"> -->
+
         <!-- <label for="dicCount" style="color:white">Choose how many die</label>
           <select id="dieCount" name="dicCount">
             <option value="0">select a number</option>
@@ -38,9 +34,9 @@
               <option value="2">2</option>
               <option value="3">3</option>
           </select> -->
-          <div id="visual2">
+          <div id="visual2" class="col-xs-4 center">
           </div>
-          <div id="visual">
+          <div id="visual" class="col-xs-4">
             <div class="dice">
               <img id="userDie" src="images/zombie_killer.jpg" />
             </div>
@@ -54,27 +50,37 @@
               <!-- <button id="roll" type="button" name="button" onclick="rollDice()"></button> -->
           </div>
 
-          <div id="message">
+          <div id="message" class="col-xs-4">
             <div id='winner'></div>
               <img id="winner" src=''/>
               <h2 id='status'></h2>
           </div>
-      </div>
+      <!-- </div> -->
+    </div>
+    <div class="row">
 
-      <div class="col-xd-9">
+      <div class="col-xd-12">
 
           <div class="game">
             <main>
-              <div class="container">
-                <!-- <div class="row"> -->
-                  <div id="map" class="col-xs-9">
-                  </div>
-                <!-- </div> -->
+              <div id='territoriesOwned' class="center">
+                <!-- <button class="btn btn-primary btn-sm" type="button">Hero Territories <span class="badge">$(this).userTerritories</span>
+                </button>
+                <button class="btn btn-danger btn-sm" type="button">Zombie Territories <span class="badge">$(this).zombieTerritories</span>
+                </button> -->
               </div>
+              <!-- <div class="container"> -->
+                <div class="row center">
+                  <div id="map" class="col-xs-12">
+                  </div>
+                </div>
+              <!-- </div> -->
             </main>
           </div>
         </div>
       </div>
+    </div>
+
     </div>
     <!-- <div class="container-fluid">
         <div class="row">
