@@ -1,12 +1,5 @@
-<!DOCTYPE xmlns>
-<xmlns>
-  <head>
-    <?xml-stylesheet type="text/css" href="/currencyXML.css"?>
-
-  </head>
-<body>
-
-<div xmlns="http://www.w3.org/1999/xhtml" id="webkit-xml-viewer-source-xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cd_catalog.css"?>
 <xe-datafeed>
   <header>
     <hname>Version</hname>
@@ -542,6 +535,3 @@
     <crate>361.9000000000</crate>
   </currency>
 </xe-datafeed>
-  </div>
-</body>
-</xmlns>
