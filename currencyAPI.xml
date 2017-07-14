@@ -1,5 +1,9 @@
 <!DOCTYPE xmlns>
 <xmlns>
+  <head>
+    <?xml-stylesheet type="text/css" href="/currencyXML.css"?>
+
+  </head>
 <body>
 
 <div xmlns="http://www.w3.org/1999/xhtml" id="webkit-xml-viewer-source-xml">
