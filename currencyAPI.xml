@@ -1,0 +1,538 @@
+<?xml version="1.0" standalone="yes"?>
+<div xmlns="http://www.w3.org/1999/xhtml" id="webkit-xml-viewer-source-xml">
+<xe-datafeed>
+  <header>
+    <hname>Version</hname>
+    <hvalue>2.45</hvalue>
+  </header>
+  <header>
+    <hname>Status</hname>
+    <hvalue>OK</hvalue>
+  </header>
+  <header>
+    <hname>Current UTC Time</hname>
+    <hvalue>2016.10.03 11:24:18</hvalue>
+  </header>
+  <header>
+    <hname>Notice</hname>
+    <hvalue>.</hvalue>
+  </header>
+  <header>
+    <hname>Redistribution</hname>
+    <hvalue></hvalue>
+  </header>
+  <header>
+    <hname>Li</hname>
+    <hvalue>x</hvalue>
+  </header>
+  <header>
+    <hname>Designated Contact</hname>
+    <hvalue> </hvalue>
+  </header>
+  <header>
+    <hname>Contact E-Mail</hname>
+    <hvalue>@.com</hvalue>
+  </header>
+  <header>
+    <hname>Feed Expires on</hname>
+    <hvalue>16</hvalue>
+  </header>
+  <header>
+    <hname>Days Remaining</hname>
+    <hvalue>1</hvalue>
+  </header>
+  <header>
+    <hname>UTC Time of Your Next Update</hname>
+    <hvalue>2018.10.04 </hvalue>
+  </header>
+  <header>
+    <hname>Seconds Until Your Next Update</hname>
+    <hvalue>1</hvalue>
+  </header>
+  <header>
+    <hname>Rate Format</hname>
+    <hvalue>XML</hvalue>
+  </header>
+  <header>
+    <hname>Rate Type</hname>
+    <hvalue>DAILY</hvalue>
+  </header>
+  <header>
+    <hname>Permitted accesses per week</hname>
+    <hvalue>11</hvalue>
+  </header>
+  <header>
+    <hname>Accesses so far this week</hname>
+    <hvalue>1</hvalue>
+  </header>
+  <header>
+    <hname>Accesses remaining in this week</hname>
+    <hvalue>10</hvalue>
+  </header>
+  <header>
+    <hname>Days until new access period begins</hname>
+    <hvalue>1</hvalue>
+  </header>
+  <header>
+    <hname>UTC Timestamp</hname>
+    <hvalue>2017.14.7 00:00:00</hvalue>
+  </header>
+  <header>
+    <hname>Local Timezone</hname>
+    <hvalue>UTC</hvalue>
+  </header>
+  <header>
+    <hname>Local Timestamp</hname>
+    <hvalue>2017.14.7 00:00:00</hvalue>
+  </header>
+  <header>
+    <hname>Base Currency</hname>
+    <hvalue>USD</hvalue>
+  </header>
+  <currency>
+    <csymbol>AED</csymbol>
+    <cname>United Arab Emirates Dirhams</cname>
+    <crate>3.6730499255</crate>
+  </currency>
+  <currency>
+    <csymbol>ALL</csymbol>
+    <cname>Albania Leke</cname>
+    <crate>122.0938608765</crate>
+  </currency>
+  <currency>
+    <csymbol>ANG</csymbol>
+    <cname>Netherlands Antilles Guilders</cname>
+    <crate>1.7899999943</crate>
+  </currency>
+  <currency>
+    <csymbol>ARS</csymbol>
+    <cname>Argentina Pesos</cname>
+    <crate>15.2647268819</crate>
+  </currency>
+  <currency>
+    <csymbol>AUD</csymbol>
+    <cname>Australia Dollars</cname>
+    <crate>1.3083891811</crate>
+  </currency>
+  <currency>
+    <csymbol>BAM</csymbol>
+    <cname>Bosnia and Herzegovina Convertible Marka</cname>
+    <crate>1.7412845059</crate>
+  </currency>
+  <currency>
+    <csymbol>BBD</csymbol>
+    <cname>Barbados Dollars</cname>
+    <crate>2.0000000000</crate>
+  </currency>
+  <currency>
+    <csymbol>BDT</csymbol>
+    <cname>Bangladesh Taka</cname>
+    <crate>77.9140234334</crate>
+  </currency>
+  <currency>
+    <csymbol>BGN</csymbol>
+    <cname>Bulgaria Leva</cname>
+    <crate>1.7402120234</crate>
+  </currency>
+  <currency>
+    <csymbol>BHD</csymbol>
+    <cname>Bahrain Dinars</cname>
+    <crate>0.3768893870</crate>
+  </currency>
+  <currency>
+    <csymbol>BMD</csymbol>
+    <cname>Bermuda Dollars</cname>
+    <crate>1.0000000000</crate>
+  </currency>
+  <currency>
+    <csymbol>BOB</csymbol>
+    <cname>Bolivia Bolivianos</cname>
+    <crate>6.9096381022</crate>
+  </currency>
+  <currency>
+    <csymbol>BRL</csymbol>
+    <cname>Brazil Reais</cname>
+    <crate>3.2612827049</crate>
+  </currency>
+  <currency>
+    <csymbol>BSD</csymbol>
+    <cname>Bahamas Dollars</cname>
+    <crate>1.0000000000</crate>
+  </currency>
+  <currency>
+    <csymbol>BWP</csymbol>
+    <cname>Botswana Pulas</cname>
+    <crate>10.4805114867</crate>
+  </currency>
+  <currency>
+    <csymbol>CAD</csymbol>
+    <cname>Canada Dollars</cname>
+    <crate>1.3133160348</crate>
+  </currency>
+  <currency>
+    <csymbol>CHF</csymbol>
+    <cname>Switzerland Francs</cname>
+    <crate>0.9721222851</crate>
+  </currency>
+  <currency>
+    <csymbol>CLP</csymbol>
+    <cname>Chile Pesos</cname>
+    <crate>657.4673840255</crate>
+  </currency>
+  <currency>
+    <csymbol>CNY</csymbol>
+    <cname>China Yuan Renminbi</cname>
+    <crate>6.6389198502</crate>
+  </currency>
+  <currency>
+    <csymbol>COP</csymbol>
+    <cname>Colombia Pesos</cname>
+    <crate>2881.9274330672</crate>
+  </currency>
+  <currency>
+    <csymbol>CRC</csymbol>
+    <cname>Costa Rica Colones</cname>
+    <crate>551.2831117781</crate>
+  </currency>
+  <currency>
+    <csymbol>CZK</csymbol>
+    <cname>Czech Republic Koruny</cname>
+    <crate>24.0569674373</crate>
+  </currency>
+  <currency>
+    <csymbol>DKK</csymbol>
+    <cname>Denmark Kroner</cname>
+    <crate>6.6290025480</crate>
+  </currency>
+  <currency>
+    <csymbol>DOP</csymbol>
+    <cname>Dominican Republic Pesos</cname>
+    <crate>46.1043230180</crate>
+  </currency>
+  <currency>
+    <csymbol>DZD</csymbol>
+    <cname>Algeria Dinars</cname>
+    <crate>109.6127054279</crate>
+  </currency>
+  <currency>
+    <csymbol>EGP</csymbol>
+    <cname>Egypt Pounds</cname>
+    <crate>8.8822854041</crate>
+  </currency>
+  <currency>
+    <csymbol>EUR</csymbol>
+    <cname>Euro</cname>
+    <crate>0.8903046307</crate>
+  </currency>
+  <currency>
+    <csymbol>FJD</csymbol>
+    <cname>Fiji Dollars</cname>
+    <crate>2.0482977969</crate>
+  </currency>
+  <currency>
+    <csymbol>GBP</csymbol>
+    <cname>United Kingdom Pounds</cname>
+    <crate>0.7734160177</crate>
+  </currency>
+  <currency>
+    <csymbol>GTQ</csymbol>
+    <cname>Guatemala Quetzales</cname>
+    <crate>7.5224994196</crate>
+  </currency>
+  <currency>
+    <csymbol>HKD</csymbol>
+    <cname>Hong Kong Dollars</cname>
+    <crate>7.7556034418</crate>
+  </currency>
+  <currency>
+    <csymbol>HRK</csymbol>
+    <cname>Croatia Kuna</cname>
+    <crate>6.6885579725</crate>
+  </currency>
+  <currency>
+    <csymbol>HUF</csymbol>
+    <cname>Hungary Forint</cname>
+    <crate>274.3537158616</crate>
+  </currency>
+  <currency>
+    <csymbol>IDR</csymbol>
+    <cname>Indonesia Rupiahs</cname>
+    <crate>12972.9978399026</crate>
+  </currency>
+  <currency>
+    <csymbol>ILS</csymbol>
+    <cname>Israel New Shekels</cname>
+    <crate>3.7521167530</crate>
+  </currency>
+  <currency>
+    <csymbol>INR</csymbol>
+    <cname>India Rupees</cname>
+    <crate>66.5565189153</crate>
+  </currency>
+  <currency>
+    <csymbol>IQD</csymbol>
+    <cname>Iraq Dinars</cname>
+    <crate>1182.4803708258</crate>
+  </currency>
+  <currency>
+    <csymbol>IRR</csymbol>
+    <cname>Iran Rials</cname>
+    <crate>31448.5058194076</crate>
+  </currency>
+  <currency>
+    <csymbol>ISK</csymbol>
+    <cname>Iceland Kronur</cname>
+    <crate>113.8347983872</crate>
+  </currency>
+  <currency>
+    <csymbol>JMD</csymbol>
+    <cname>Jamaica Dollars</cname>
+    <crate>127.9289897435</crate>
+  </currency>
+  <currency>
+    <csymbol>JOD</csymbol>
+    <cname>Jordan Dinars</cname>
+    <crate>0.7084996457</crate>
+  </currency>
+  <currency>
+    <csymbol>JPY</csymbol>
+    <cname>Japan Yen</cname>
+    <crate>101.5499934726</crate>
+  </currency>
+  <currency>
+    <csymbol>KES</csymbol>
+    <cname>Kenya Shillings</cname>
+    <crate>101.2708806896</crate>
+  </currency>
+  <currency>
+    <csymbol>KRW</csymbol>
+    <cname>South Korea Won</cname>
+    <crate>1102.9670835439</crate>
+  </currency>
+  <currency>
+    <csymbol>KWD</csymbol>
+    <cname>Kuwait Dinars</cname>
+    <crate>0.3014389965</crate>
+  </currency>
+  <currency>
+    <csymbol>LBP</csymbol>
+    <cname>Lebanon Pounds</cname>
+    <crate>1506.5005498259</crate>
+  </currency>
+  <currency>
+    <csymbol>LKR</csymbol>
+    <cname>Sri Lanka Rupees</cname>
+    <crate>145.7332886064</crate>
+  </currency>
+  <currency>
+    <csymbol>MAD</csymbol>
+    <cname>Morocco Dirhams</cname>
+    <crate>9.7108836518</crate>
+  </currency>
+  <currency>
+    <csymbol>MUR</csymbol>
+    <cname>Mauritius Rupees</cname>
+    <crate>35.4793616553</crate>
+  </currency>
+  <currency>
+    <csymbol>MXN</csymbol>
+    <cname>Mexico Pesos</cname>
+    <crate>19.4106214002</crate>
+  </currency>
+  <currency>
+    <csymbol>MYR</csymbol>
+    <cname>Malaysia Ringgits</cname>
+    <crate>4.1278483805</crate>
+  </currency>
+  <currency>
+    <csymbol>NGN</csymbol>
+    <cname>Nigeria Nairas</cname>
+    <crate>314.9993227515</crate>
+  </currency>
+  <currency>
+    <csymbol>NOK</csymbol>
+    <cname>Norway Kroner</cname>
+    <crate>7.9965590496</crate>
+  </currency>
+  <currency>
+    <csymbol>NZD</csymbol>
+    <cname>New Zealand Dollars</cname>
+    <crate>1.3765579662</crate>
+  </currency>
+  <currency>
+    <csymbol>OMR</csymbol>
+    <cname>Oman Rials</cname>
+    <crate>0.3850499927</crate>
+  </currency>
+  <currency>
+    <csymbol>PEN</csymbol>
+    <cname>Peru Soles</cname>
+    <crate>3.3829992580</crate>
+  </currency>
+  <currency>
+    <csymbol>PHP</csymbol>
+    <cname>Philippines Pesos</cname>
+    <crate>48.2834975186</crate>
+  </currency>
+  <currency>
+    <csymbol>PKR</csymbol>
+    <cname>Pakistan Rupees</cname>
+    <crate>104.4550060062</crate>
+  </currency>
+  <currency>
+    <csymbol>PLN</csymbol>
+    <cname>Poland Zlotych</cname>
+    <crate>3.8251933083</crate>
+  </currency>
+  <currency>
+    <csymbol>PYG</csymbol>
+    <cname>Paraguay Guarani</cname>
+    <crate>5572.2723726736</crate>
+  </currency>
+  <currency>
+    <csymbol>QAR</csymbol>
+    <cname>Qatar Riyals</cname>
+    <crate>3.6421000710</crate>
+  </currency>
+  <currency>
+    <csymbol>RUB</csymbol>
+    <cname>Russia Rubles</cname>
+    <crate>62.9199760458</crate>
+  </currency>
+  <currency>
+    <csymbol>SAR</csymbol>
+    <cname>Saudi Arabia Riyals</cname>
+    <crate>3.7531499669</crate>
+  </currency>
+  <currency>
+    <csymbol>SEK</csymbol>
+    <cname>Sweden Kronor</cname>
+    <crate>8.5831667588</crate>
+  </currency>
+  <currency>
+    <csymbol>SGD</csymbol>
+    <cname>Singapore Dollars</cname>
+    <crate>1.3644939541</crate>
+  </currency>
+  <currency>
+    <csymbol>THB</csymbol>
+    <cname>Thailand Baht</cname>
+    <crate>34.6016826919</crate>
+  </currency>
+  <currency>
+    <csymbol>TND</csymbol>
+    <cname>Tunisia Dinars</cname>
+    <crate>2.1989383965</crate>
+  </currency>
+  <currency>
+    <csymbol>TRY</csymbol>
+    <cname>Turkey Lira</cname>
+    <crate>3.0023140716</crate>
+  </currency>
+  <currency>
+    <csymbol>TTD</csymbol>
+    <cname>Trinidad and Tobago Dollars</cname>
+    <crate>6.7117921968</crate>
+  </currency>
+  <currency>
+    <csymbol>TWD</csymbol>
+    <cname>Taiwan New Dollars</cname>
+    <crate>31.3175015766</crate>
+  </currency>
+  <currency>
+    <csymbol>TZS</csymbol>
+    <cname>Tanzania Shillings</cname>
+    <crate>2167.3168617252</crate>
+  </currency>
+  <currency>
+    <csymbol>UAH</csymbol>
+    <cname>Ukraine Hryvnia</cname>
+    <crate>25.9349745363</crate>
+  </currency>
+  <currency>
+    <csymbol>USD</csymbol>
+    <cname>United States Dollars</cname>
+    <crate>1.0000000000</crate>
+  </currency>
+  <currency>
+    <csymbol>UYU</csymbol>
+    <cname>Uruguay Pesos</cname>
+    <crate>28.4949774862</crate>
+  </currency>
+  <currency>
+    <csymbol>VEB</csymbol>
+    <cname>Venezuela Bolivares</cname>
+    <crate>9949.7487937173</crate>
+  </currency>
+  <currency>
+    <csymbol>VND</csymbol>
+    <cname>Vietnam Dong</cname>
+    <crate>22225.1950944681</crate>
+  </currency>
+  <currency>
+    <csymbol>XAF</csymbol>
+    <cname>Communauté Financière Africaine Francs BEAC</cname>
+    <crate>584.0015546536</crate>
+  </currency>
+  <currency>
+    <csymbol>XAG</csymbol>
+    <cname>Silver Ounces</cname>
+    <crate>0.0521994625</crate>
+  </currency>
+  <currency>
+    <csymbol>XAU</csymbol>
+    <cname>Gold Ounces</cname>
+    <crate>0.0007599566</crate>
+  </currency>
+  <currency>
+    <csymbol>XCD</csymbol>
+    <cname>East Caribbean Dollars</cname>
+    <crate>2.7000025921</crate>
+  </currency>
+  <currency>
+    <csymbol>XDR</csymbol>
+    <cname>International Monetary Fund Special Drawing Rights</cname>
+    <crate>0.7153999855</crate>
+  </currency>
+  <currency>
+    <csymbol>XOF</csymbol>
+    <cname>Communauté Financière Africaine Francs BCEAO</cname>
+    <crate>584.0015546536</crate>
+  </currency>
+  <currency>
+    <csymbol>XPD</csymbol>
+    <cname>Palladium Ounces</cname>
+    <crate>0.0013869917</crate>
+  </currency>
+  <currency>
+    <csymbol>XPF</csymbol>
+    <cname>Comptoirs Français du Pacifique Francs</cname>
+    <crate>106.2416027113</crate>
+  </currency>
+  <currency>
+    <csymbol>XPT</csymbol>
+    <cname>Platinum Ounces</cname>
+    <crate>0.0009738987</crate>
+  </currency>
+  <currency>
+    <csymbol>ZAR</csymbol>
+    <cname>South Africa Rand</cname>
+    <crate>13.7524605676</crate>
+  </currency>
+  <currency>
+    <csymbol>ZMK</csymbol>
+    <cname>Zambia Kwacha</cname>
+    <crate>10024.9911448389</crate>
+  </currency>
+  <currency>
+    <csymbol>ZMW</csymbol>
+    <cname>Zambia Kwacha</cname>
+    <crate>10.0249911448</crate>
+  </currency>
+  <currency>
+    <csymbol>ZWD</csymbol>
+    <cname>Zimbabwe Dollars</cname>
+    <crate>361.9000000000</crate>
+  </currency>
+</xe-datafeed>
+  </div>
