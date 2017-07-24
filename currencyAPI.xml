@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="cd_catalog.css"?>
 <xe-datafeed>
   <header>
     <hname>Version</hname>
@@ -11,7 +10,7 @@
   </header>
   <header>
     <hname>Current UTC Time</hname>
-    <hvalue>2016.10.03 11:24:18</hvalue>
+    <hvalue>2017.07.24 11:24:18</hvalue>
   </header>
   <header>
     <hname>Notice</hname>
